@@ -2,16 +2,15 @@ import React from 'react';
 
 export default function Page() {
   return (
-    <div dir="rtl" className="min-h-screen bg-[#FDFBFF] font-sans text-slate-900 selection:bg-[#4A0080] selection:text-white">
+    <div dir="rtl" className="min-h-screen bg-[#FDFBFF] font-tajawal text-slate-900 selection:bg-[#4A0080] selection:text-white">
       {/* Navigation */}
       <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-[#E6D4FF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-[#4A0080] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">W</span>
+              <div className="h-10 w-auto">
+                <img src="/brand/logo_transparent.png" alt="Webly Logo" className="h-full w-auto" />
               </div>
-              <span className="font-bold text-2xl text-[#4A0080]">ويـبـلـي<span className="text-[#CC99FF]">.</span></span>
             </div>
             <div className="hidden md:flex space-x-8 space-x-reverse">
               <a href="#features" className="text-slate-600 hover:text-[#6B0F9F] font-medium transition-colors">المميزات</a>
@@ -39,7 +38,7 @@ export default function Page() {
               </span>
               نقدم لكم Webly Smart Launch 2026
             </div>
-            <h1 className="text-5xl lg:text-7xl font-extrabold text-[#000000] tracking-tight leading-[1.1] mb-8">
+            <h1 className="text-5xl lg:text-7xl font-extrabold text-[#000000] tracking-tight leading-[1.1] mb-8 font-tajawal">
               لا تشترِ مجرد موقع إلكتروني.. <br className="hidden lg:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4A0080] to-[#6B0F9F]">
                 أطلق "منظومة نمو" تعمل بالذكاء الاصطناعي
@@ -132,10 +131,9 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-[#4A0080] rounded-md flex items-center justify-center">
-                <span className="text-white font-bold">W</span>
+              <div className="h-8 w-auto">
+                <img src="/brand/logo_white_transparent.png" alt="Webly Logo" className="h-full w-auto" />
               </div>
-              <span className="font-bold text-xl text-white">ويـبـلـي</span>
             </div>
             <p className="text-sm">
               &copy; {new Date().getFullYear()} Webly Digital Solutions. جميع الحقوق محفوظة.
